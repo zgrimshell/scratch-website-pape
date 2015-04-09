@@ -1,4 +1,5 @@
 * mail backend (cemo vidjeti mailman?)
+* json? metadata
 * elegant simple design
 * registration
 * paypal implementation
