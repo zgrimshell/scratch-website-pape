@@ -19,7 +19,8 @@ nav {
 }
 
 .lorem {
-    float: left;
+    width: 650px;
+    height: 85px;
 }
 
 .circle {
