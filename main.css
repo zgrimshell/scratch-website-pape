@@ -1,86 +1,96 @@
-@font-face {
-    font-family: CrazyFont;
-    src: url(Humor-Sans-1.0.ttf);
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#nav {
-    font-family: CrazyFont;
-    text-align:center;
-    padding:5px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.responsive-design {
-  float: left;
-  margin: 5px;
-  width: 125px;
-  height: 75px;
-  border: 1px solid;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#container {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-.lorem {
-    width: 650px;
-    height: 85px;
-}
-
-.circle {
-	background: rgb(255,255,255);
-	border-radius: 100%;
-	cursor: pointer;
-	width: 15em; 
-	height: 15em;
-    transform: translateZ(0);
+#logo {
     float: left;
-    margin-top: 10%;
-
+    width: 300px;
+    height: 150px;
 }
 
-.circle h1 {
-	color: rgba(189, 185, 199,0);
-	font-weight: 900;
-	font-size: 1.6em;
-	line-height: 8.2em;
-	text-align: center;
-	text-transform: uppercase;
-	-webkit-font-smoothing: antialiased;
-	user-select: none;
-	transition: color 0.8s ease-in-out;
+#main-nav {
+    font-size: 2em;
+    text-align: center;
+    float: right;
 }
 
-.circle:before,
-.circle:after {
-	border-radius: 100%;
-	content:"";
-	position: absolute;
-	top: 0; 
-	left: 0;
-	width: inherit; 
-	height: inherit;			
-	box-shadow: inset 10.6em 0 0 rgba(30, 140, 209, 0.2), 
-	            inset 0 10.6em 0 rgba(30, 140, 209, 0.2), 
-	            inset -10.6em 0 0 rgba(30, 140, 209, 0.2), 
-	            inset 0 -10.6em 0 rgba(30, 140, 209, 0.2);
-	transition: box-shadow 0.75s;
+#main-nav ul {
+    list-style-type: none;
 }
 
-/* We rotate the :after pseudo-element to get the edge from the corner, we could also just do that with box-shadows. */
-
-.circle:after  {
-	transform: rotate(45deg);
+#main-nav ul li {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin: 0;
+    margin-top: 90px;
+    padding: 10px;
+    background: #ddd;
+    
 }
 
-/* There is no problem using "pseudo-class + pseudo-element" :) */
-
-.circle:hover:before,
-.circle:hover:after  {
-	box-shadow: inset 0.86em 0 0 rgba(255, 0, 0, 0.5), 
-	            inset 0 0.86em 0 rgba(252, 150, 0, 0.5), 
-	            inset -0.86em 0 0 rgba(0, 255, 0, 0.5),	
-	            inset 0 -0.86em 0 rgba(0, 150, 255, 0.5);
+#main-content {
+    clear: both;
+    padding-top: 50px;
 }
 
-.circle:hover > h1  {
-	color: rgba(185, 185, 185,1);
+.showcase img {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.showcase img:nth-child(3n) {
+    margin-right: 0;
+}
+
+.features p {
+    width: 300px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.features p:last-child {
+    padding-right: 0;
+}
+
+footer {
+    clear: both;
+    background: #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+footer div {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#footer-nav {
+    float: left;
+}
+
+#footer-nav ul {
+    list-style-type: none;
+}
+
+#footer-nav ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+#copyright {
+    float: right;
 }
