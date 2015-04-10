@@ -1,0 +1,19 @@
+@font-face {
+    font-family: CrazyFont;
+    src: url(Humor-Sans-1.0.ttf);
+}
+
+div {
+    font-family: CrazyFont;
+}
+
+.responsive-design {
+  float: left;
+  margin: 5px;
+  width: 125px;
+  height: 75px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
