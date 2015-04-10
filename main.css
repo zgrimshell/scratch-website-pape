@@ -3,8 +3,10 @@
     src: url(Humor-Sans-1.0.ttf);
 }
 
-nav {
+#nav {
     font-family: CrazyFont;
+    text-align:center;
+    padding:5px;
 }
 
 .responsive-design {
@@ -27,17 +29,16 @@ nav {
 	background: rgb(255,255,255);
 	border-radius: 100%;
 	cursor: pointer;
-	position: relative;
-	margin: 0 auto;
 	width: 15em; 
 	height: 15em;
-	overflow: hidden;
-	transform: translateZ(0);
+    transform: translateZ(0);
+    float: left;
+    margin-top: 10%;
+
 }
 
 .circle h1 {
 	color: rgba(189, 185, 199,0);
-	font-family: 'Lato', sans-serif;
 	font-weight: 900;
 	font-size: 1.6em;
 	line-height: 8.2em;
