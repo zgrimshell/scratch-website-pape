@@ -198,6 +198,11 @@ ul {
 
 footer {
     text-align: center;
+    height: 150px;
+    color:#ccc;
+    font-size:12px;
+    position:relative;
+    background-color:#31353a;
 }
 
 li a {
