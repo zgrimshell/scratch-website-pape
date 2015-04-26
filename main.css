@@ -146,15 +146,27 @@ footer {
 }
 
 .pape-img-1 { 
-	background-image: url(../images/pape1.jpg);
+	background-image: url(img/sock1.jpg);
 }
 
 .pape-img-2 { 
-	background-image: url(../images/pape2.jpg);
+	background-image: url(img/sock2.jpg);
 }
 
 .pape-img-3 { 
-	background-image: url(../images/pape3.jpg);
+	background-image: url(img/sock3.jpg);
+}
+
+.pape-img-4 { 
+	background-image: url(img/sock4.jpg);
+}
+
+.pape-img-5 { 
+	background-image: url(img/sock5.jpg);
+}
+
+.pape-img-6 { 
+	background-image: url(img/sock6.jpg);
 }
 
 .pape-info h3 {
